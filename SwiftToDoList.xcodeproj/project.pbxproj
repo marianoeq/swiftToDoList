@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FBB678A12DE75425007D6D36 /* SwiftToDoList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftToDoList;
-			sourceTree = "<group>";
-		};
 		FBB678B22DE75431007D6D36 /* SwiftToDoListTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftToDoListTests;
@@ -43,6 +38,11 @@
 		FBB678BC2DE75431007D6D36 /* SwiftToDoListUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftToDoListUITests;
+			sourceTree = "<group>";
+		};
+		FBB678DD2DE759CC007D6D36 /* SwiftToDoList */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftToDoList;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		FBB678962DE75425007D6D36 = {
 			isa = PBXGroup;
 			children = (
-				FBB678A12DE75425007D6D36 /* SwiftToDoList */,
+				FBB678DD2DE759CC007D6D36 /* SwiftToDoList */,
 				FBB678B22DE75431007D6D36 /* SwiftToDoListTests */,
 				FBB678BC2DE75431007D6D36 /* SwiftToDoListUITests */,
 				FBB678A02DE75425007D6D36 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FBB678A12DE75425007D6D36 /* SwiftToDoList */,
+				FBB678DD2DE759CC007D6D36 /* SwiftToDoList */,
 			);
 			name = SwiftToDoList;
 			packageProductDependencies = (
